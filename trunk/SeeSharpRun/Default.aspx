@@ -11,7 +11,7 @@
     <div>
 		<asp:TextBox ID="txtCode" TextMode="MultiLine" runat="server" Width="500" Height="300" />
 		<br />
-		<asp:Button id="btnTestCode" text="label" OnClick="btnTestCode_Click" runat="server" />
+		<asp:Button id="btnTestCode" text="Run it!" OnClick="btnTestCode_Click" runat="server" />
 		<br />
 		<asp:TextBox ID="txtRunResults" runat="server" TextMode="MultiLine" ReadOnly="true"  Width="500" Height="300" />
     </div>
